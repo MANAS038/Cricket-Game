@@ -11,11 +11,7 @@ public class Game{
         team2.play(true,team2);
         EndOfGame.getWinner(team1,team2);
     }
-    public int Sc()
-    {
-        return team3.getScore();
 
-    }
     static public int getTarget() {
         return target;
     }
